@@ -6,7 +6,7 @@ This is a test repository to fine-tune the implementation of [Monarch's Phenogri
 1. Clone the repository to your local machine
 2. Set up a local server using `http-server`
 3. Run `http-server` from the root of the repository
-4. Navigate to `project` 
+4. Follow the URL provided on your console which opens a new tab on your browser. On your browser, navigate to `project` 
 5. Should you see a 'No Results' display, refresh the page to see the Phenogrid. Check the console for the message *'Iframe loaded successfully'*.
 
 ### Here is an example for the highest scoring disease-model match of [*Akt2*](https://www.mousephenotype.org/data/genes/MGI:104874):
