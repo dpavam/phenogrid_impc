@@ -1,10 +1,10 @@
 # Phenogrid for IMPC
 
-This is a test repository to finetune the implementation of Monarch's Phenogrid to the IMPC website.
+This is a test repository to finetune the implementation of [Monarch's Phenogrid](https://github.com/monarch-initiative/monarch-app/blob/main/frontend/PHENOGRID.md) to the IMPC website.
 
 ## To display the Phenogrid:
 1. Clone the repo to your local machine
 2. Set up a local server using `http-server`
 3. Run `http-server` from the root of the repo 
-4. Navigate to `projects` 
-5. You should see a 'No Results' display. Refresh the page to see the Phenogrid. Check the console for the message **'Iframe loaded successfuly'**.
+4. Navigate to `project` 
+5. Should you see a 'No Results' display, refresh the page to see the Phenogrid. Check the console for the message *'Iframe loaded successfuly'*.
