@@ -1,0 +1,6 @@
+# Ignore draft files
+main_simple*
+main_test*
+main.html
+monarch_api_call*
+sandbox*
