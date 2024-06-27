@@ -14,9 +14,9 @@ export function sendIMPCMessage(iframe, data) {
     for (let i = 0; i < data['response']['docs'].length; i++) {
         const doc = data['response']['docs'][i]
         const phenotypes = doc['model_matched_phenotypes']
-        const id = doc['model_id']
+        const id = doc['model_description']
         const phenodigm_score = ((doc['disease_model_avg_norm'] + doc['disease_model_max_norm']) / 2).toFixed(2)
-        const label = `${phenodigm_score}-${doc['model_id']}`
+        const label = `${phenodigm_score}-${doc['model_description']}`
 
 
         // Parse the phenotypes to extract an array with only MP terms
