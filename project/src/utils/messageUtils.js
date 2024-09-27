@@ -42,13 +42,15 @@ export function sendIMPCMessage(iframe, data) {
     }
 
 
-// Send the message to the monarch API
-    iframe.contentWindow?.postMessage({
-        subjects: ["HP:0000855",
-            "HP:0031819",
-            "HP:0000006",
-            "HP:0005978",
-            "HP:0003584"],
-        "object-sets": objectSets,
-    }, "http://monarchinitiative.org");
+    // Send the message to the monarch API
+        iframe.contentWindow?.postMessage({
+            subjects: ["HP:0000855",
+                "HP:0031819",
+                "HP:0000006",
+                "HP:0005978",
+                "HP:0003584",
+                "HP:100000000"],
+            "object-sets": objectSets,
+        }, "https://monarchinitiative.org");
+
 }
